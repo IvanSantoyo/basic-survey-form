@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survery-Form</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
@@ -13,12 +13,16 @@
     <p id="description"></p>
     <form id="survey-form">
         <input id="name" placeholder="Enter Name" type="text">
+        <label id="name-label"></label>
         <input id="email" placeholder="Enter E-mail" type="email">
+        <label id="email-label"></label>
         <input id="number" placeholder="Enter Number" type="number" min="1" max="9">
+        <label id="number-label"></label>
         <select id="dropdown">
-
+            <option>Yes</option>
+            <option>No</option>
         </select>
-        <input type="radio" id="Beginner" name="level" value="Beginner">
+<        <input type="radio" id="Beginner" name="level" value="Beginner">
         <label for="Beginner">Beginner</label>
         <input type="radio" id="Medium" name="level" value="Medium">
         <label for="Medium">Medium</label>
@@ -31,7 +35,7 @@
         <input type="checkbox" name="language" value="C">
         <label for="C">C</label>
         <input type="checkbox" name="language" value="Css">
-        <label for="Css">Css</label>
+        <label for="Css">Css</label>>
         <Textarea></Textarea>
         <button type="submit" id="submit">Submit</button>
     </form>
