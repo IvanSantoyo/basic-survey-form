@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survery-Form</title>
+    <br>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
-<body id="main">
+<body>
+    <div id="main">
+        <header>
     <h1 id="title">Survey Form</h1>
-    <p id="description"></p>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim arcu sit amet luctus accumsan. Cras lacinia purus ut massa finibus sagittis. Aliquam vitae aliquet arcu. Nulla placerat semper magna, in rutrum sapien. Proin venenatis nunc in dolor eleifend tincidunt. Integer ac ante eu eros blandit auctor quis nec ex. Praesent turpis magna, consequat sit amet faucibus nec, elementum tristique libero. Fusce consequat lacus eu dui finibus, in condimentum nisi ornare. Vivamus elementum libero id consectetur dapibus. Ut aliquet justo non gravida vestibulum. Donec a porttitor diam, nec consectetur eros. Donec vel commodo risus, in scelerisque mi. Vivamus luctus vulputate sapien, quis molestie ligula vulputate et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed dignissim massa tempor ante facilisis lacinia. Aliquam quam orci, ultrices ut orci sed, fringilla semper sapien.</p>
+        </header>
     <form id="survey-form">
-        <input id="name" placeholder="Enter Name" type="text">
-        <label id="name-label"></label>
-        <input id="email" placeholder="Enter E-mail" type="email">
-        <label id="email-label"></label>
+        <input id="name" placeholder="Enter Name" type="text" required>
+        <label id="name-label">Name</label>
+        <input id="email" placeholder="Enter E-mail" type="email" required>
+        <label id="email-label">Email</label>
         <input id="number" placeholder="Enter Number" type="number" min="1" max="9">
-        <label id="number-label"></label>
+        <label id="number-label">Number</label>
         <select id="dropdown">
             <option>Yes</option>
             <option>No</option>
-        </select>
-<        <input type="radio" id="Beginner" name="level" value="Beginner">
+        </select><br>
+        <input type="radio" id="Beginner" name="level" value="Beginner">
         <label for="Beginner">Beginner</label>
         <input type="radio" id="Medium" name="level" value="Medium">
         <label for="Medium">Medium</label>
@@ -39,6 +42,7 @@
         <Textarea></Textarea>
         <button type="submit" id="submit">Submit</button>
     </form>
+    </div>
 
 </body>
 </html>
